@@ -13,4 +13,4 @@ app.post(['/signup'], async (req, res) => {
     await res.delegate('users');
 });
 
-app.listen(process.env.PORT);
+app.listen(process.env.GATEWAY_PORT);

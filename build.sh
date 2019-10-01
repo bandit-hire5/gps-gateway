@@ -2,7 +2,7 @@
 
 start=$(date +%s.%N)
 
-#docker build -t gps-tracker .
+docker build -t gps-gateway .
 
 dur=$(echo "$(date +%s.%N) - $start" | bc)
 
